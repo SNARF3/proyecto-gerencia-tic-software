@@ -1,0 +1,62 @@
+:root {
+  --navy-950: #0c0a1f;
+  --navy-900: #141230;
+  --navy-800: #1c1940;
+  --purple-600: #7c3aed;
+  --purple-500: #9d4edd;
+  --magenta-500: #e0249f;
+  --teal-600: #14707a;
+  --teal-500: #1c8f93;
+  --lavender-bg: #eeecf7;
+  --lavender-bg-2: #e4e0f3;
+  --text-dark: #1c1834;
+  --text-muted: #5c5673;
+  --text-light: #f5f3fb;
+  --card-bg: #ffffff;
+  --border-soft: rgba(28, 24, 52, 0.08);
+  --shadow-card: 0 10px 30px -12px rgba(28, 20, 60, 0.25);
+  --shadow-card-hover: 0 18px 40px -14px rgba(124, 58, 237, 0.35);
+  --gradient-accent: linear-gradient(90deg, #7c3aed 0%, #d6249f 55%, #f43f5e 100%);
+  --gradient-purple: linear-gradient(135deg, #7c3aed, #c026d3);
+  --gradient-teal: linear-gradient(135deg, #0e7490, #14b8a6);
+  --gradient-dark: linear-gradient(135deg, #1c1940 0%, #3b1c66 60%, #5b1a7a 100%);
+
+  --font-display: 'Orbitron', 'Rajdhani', system-ui, sans-serif;
+  --font-heading: 'Rajdhani', system-ui, sans-serif;
+  --font-body: 'Sora', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 17px/1.6 var(--font-body);
+  color: var(--text-dark);
+  background: var(--lavender-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  margin: 0 0 8px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
