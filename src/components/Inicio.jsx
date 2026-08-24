@@ -34,32 +34,6 @@ export default function Inicio() {
         </Reveal>
       </section>
 
-      <section className="section" style={{ paddingTop: 0 }}>
-        <div className="grid grid-2">
-          <Reveal>
-            <div className="card">
-              <IconBadge name="target" tone="purple" size={48} />
-              <h2>Misión</h2>
-              <p>
-                Desarrollar soluciones basadas en software garantizando calidad tanto en
-                funcionalidad como en seguridad para generar resultados de alto valor en el área
-                médica.
-              </p>
-            </div>
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="card">
-              <IconBadge name="compass" tone="teal" size={48} />
-              <h2>Visión</h2>
-              <p>
-                Ser un estándar en el desarrollo de herramientas digitales de alto impacto
-                médico apoyando las necesidades del área de la salud.
-              </p>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
       <section className="band dark divider">
         <Reveal as="h2" className="band-title">
           Nuestro Equipo
