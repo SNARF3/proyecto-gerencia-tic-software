@@ -52,33 +52,287 @@ export const techStack = [
 export const orgChart = {
   root: {
     role: 'Subgerente de Software',
-    name: 'Adriana Álvarez (1)',
-    link: 'https://drive.google.com/file/d/1jWa9guEWsy72vE70rKbb6hm8KwxetIIB/view?usp=drive_link',
+    positionId: 'subgerente-software',
     child: {
       role: 'Líder de Desarrollo',
-      name: 'Adrián Gonzales (1)',
-      link: 'https://drive.google.com/file/d/1crILrn1KiGaS_LF6ZxrTWpsG4UOoZs8n/view?usp=drive_link',
+      positionId: 'lider-desarrollo',
       children: [
         {
           role: 'Desarrollador de sistemas',
-          name: 'Adrián Ordóñez (1)',
-          link: 'https://drive.google.com/file/d/1gisE80f15eaedlM8UUKEG3p7mXKYucHo/view?usp=drive_link',
+          positionId: 'desarrollador-sistemas',
         },
         {
           role: 'Analista de soporte al desarrollo',
-          name: 'Diego Laguna (1)',
-          link: 'https://drive.google.com/file/d/1B2NdR2YHSFqOmw3x1yzIrktcKUEara-e/view?usp=drive_link',
+          positionId: 'analista-soporte',
         },
         {
           role: 'Especialista de herramientas de desarrollo',
-          name: 'Marvin Mollo (1)',
-          link: 'https://drive.google.com/file/d/10oEte44L4K132HbXNKwuDxPJABEAUwcR/view?usp=drive_link',
+          positionId: 'especialista-herramientas',
         },
       ],
     },
   },
-  note: 'El área de software se encarga del diseño y desarrollo de sistemas que proporcionan soluciones tecnológicas.',
+  note: 'El área de software se encarga del diseño y desarrollo de sistemas que proporcionan soluciones tecnológicas. Selecciona un cargo para ver su descripción de puesto completa.',
 }
+
+export const positions = [
+  {
+    id: 'subgerente-software',
+    title: 'Subgerente de Software',
+    meta: { categoria: 'Directivo', departamento: 'Software', titulares: 1, jornada: 'Tiempo completo' },
+    finalidad: [
+      'Dirigir el área de Software, definiendo lineamientos y prioridades para el diseño y desarrollo de sistemas.',
+      'Asegurar que las soluciones tecnológicas entregadas respondan a las necesidades de la empresa.',
+      'Supervisar la gestión de recursos humanos y materiales asignados al área.',
+      'Alinear los proyectos de software con los objetivos estratégicos de la empresa.',
+    ],
+    eficiencia: [
+      'Cumplimiento de los objetivos y proyectos del área de Software.',
+      'Calidad y estabilidad de las soluciones tecnológicas entregadas.',
+      'Gestión eficiente de los recursos humanos y materiales del área.',
+      'Ajuste del desarrollo a los plazos y presupuesto asignados.',
+    ],
+    funciones: [
+      'Definir los lineamientos y estándares de desarrollo del área.',
+      'Supervisar y evaluar el desempeño del Líder de Desarrollo y su equipo.',
+      'Aprobar la priorización de proyectos y asignación de recursos.',
+      'Reportar los resultados del área a la Gerencia General.',
+    ],
+    relaciones: {
+      jerarquicas: 'Reporta a la Gerencia General.',
+      funcionales: 'Coordina con el Líder de Desarrollo y con otras áreas de la empresa.',
+    },
+    responsabilidad: [
+      'Supervisión directa del presupuesto y los recursos asignados al área.',
+      'Gestión de la confidencialidad de la información técnica y estratégica del área.',
+      'Toma de decisiones críticas sobre prioridades y proyectos de software.',
+    ],
+    condiciones: [
+      'Opera principalmente en entorno de oficina.',
+      'Disponibilidad para reuniones y coordinación con otras áreas fuera del horario habitual.',
+    ],
+    riesgos: [
+      'Estrés derivado de la responsabilidad sobre los resultados del área.',
+      'Exposición a sobrecarga de trabajo en periodos de múltiples proyectos simultáneos.',
+    ],
+    requerimientos: [
+      'Grado en Ingeniería de Sistemas, Informática o carreras afines.',
+      'Experiencia mínima de 5 años en gestión de áreas o equipos de tecnología.',
+      'Conocimientos en planificación estratégica y metodologías ágiles.',
+      'Conocimiento de arquitectura de software y buenas prácticas de desarrollo.',
+    ],
+    competencias: [
+      'Liderazgo y visión estratégica.',
+      'Orientación a resultados.',
+      'Habilidades de comunicación y negociación.',
+      'Capacidad de toma de decisiones.',
+    ],
+    pdf: 'https://drive.google.com/file/d/1jWa9guEWsy72vE70rKbb6hm8KwxetIIB/view?usp=drive_link',
+  },
+  {
+    id: 'lider-desarrollo',
+    title: 'Líder de Desarrollo',
+    meta: { categoria: 'Jefatura / Mando medio', departamento: 'Software', titulares: 1, jornada: 'Tiempo completo' },
+    finalidad: [
+      'Liderar y coordinar al equipo de desarrollo del área de Software.',
+      'Traducir los lineamientos de la Subgerencia en tareas concretas para el equipo.',
+      'Dar seguimiento al avance de los sistemas en desarrollo.',
+      'Asegurar la calidad de las soluciones entregadas por el equipo.',
+    ],
+    eficiencia: [
+      'Entrega de software funcional y de calidad en los plazos definidos.',
+      'Coordinación efectiva del equipo de desarrollo, soporte y herramientas.',
+      'Reducción de incidencias reportadas en los sistemas.',
+      'Cumplimiento del presupuesto asignado a los proyectos del equipo.',
+    ],
+    funciones: [
+      'Distribuir responsabilidades entre el desarrollador de sistemas, el analista de soporte y el especialista de herramientas.',
+      'Supervisar el avance técnico de los proyectos del equipo.',
+      'Analizar reportes de funcionamiento y proponer mejoras técnicas.',
+      'Tomar decisiones ante imprevistos técnicos del equipo.',
+    ],
+    relaciones: {
+      jerarquicas: 'Reporta a la Subgerente de Software.',
+      funcionales: 'Coordina con el desarrollador de sistemas, el analista de soporte al desarrollo y el especialista de herramientas de desarrollo.',
+    },
+    responsabilidad: [
+      'Supervisión del cumplimiento de los cronogramas de proyecto.',
+      'Gestión de la calidad técnica de las soluciones entregadas por el equipo.',
+      'Toma de decisiones críticas que afectan el funcionamiento de los sistemas del área.',
+    ],
+    condiciones: [
+      'Opera principalmente en entorno de oficina con posibilidad de trabajo remoto.',
+      'Disponibilidad para atender incidencias críticas fuera del horario habitual.',
+    ],
+    riesgos: [
+      'Estrés derivado de la resolución de incidencias críticas en tiempo reducido.',
+      'Sobrecarga de trabajo durante picos de demanda o entregas simultáneas.',
+    ],
+    requerimientos: [
+      'Grado en Ingeniería de Sistemas, Informática o carreras afines.',
+      'Experiencia mínima de 3 años en desarrollo de software y liderazgo de equipos.',
+      'Conocimientos en metodologías ágiles y arquitectura de software.',
+      'Conocimientos de control de versiones y buenas prácticas de desarrollo.',
+    ],
+    competencias: [
+      'Liderazgo y gestión de equipos.',
+      'Orientación a resultados y resolución de problemas.',
+      'Habilidades de comunicación.',
+      'Capacidad de análisis y mejora.',
+    ],
+    pdf: 'https://drive.google.com/file/d/1crILrn1KiGaS_LF6ZxrTWpsG4UOoZs8n/view?usp=drive_link',
+  },
+  {
+    id: 'desarrollador-sistemas',
+    title: 'Desarrollador de sistemas',
+    meta: { categoria: 'Profesional / Técnico Especializado', departamento: 'Software', titulares: 1, jornada: 'Tiempo completo' },
+    finalidad: [
+      'Desarrollar y mantener los sistemas del área de Software.',
+      'Implementar funcionalidades y corregir errores en los sistemas asignados.',
+      'Participar en el diseño técnico de las soluciones del equipo.',
+    ],
+    eficiencia: [
+      'Entrega de funcionalidades de software dentro de los plazos establecidos.',
+      'Calidad y estabilidad del código entregado.',
+      'Reducción de errores reportados en los sistemas desarrollados.',
+    ],
+    funciones: [
+      'Programar e implementar las funcionalidades asignadas.',
+      'Corregir errores e incidencias técnicas de los sistemas.',
+      'Documentar el código y los cambios realizados.',
+      'Colaborar con el analista de soporte en la resolución de incidencias.',
+    ],
+    relaciones: {
+      jerarquicas: 'Reporta al Líder de Desarrollo.',
+      funcionales: 'Coordina con el analista de soporte al desarrollo y el especialista de herramientas de desarrollo.',
+    },
+    responsabilidad: [
+      'Responsabilidad sobre la calidad y el correcto funcionamiento del código entregado.',
+      'Manejo de información técnica y datos de los sistemas.',
+    ],
+    condiciones: [
+      'Opera principalmente en entorno de oficina, con posibilidad de trabajo remoto.',
+      'Disponibilidad ocasional fuera de horario ante incidencias críticas.',
+    ],
+    riesgos: [
+      'Fatiga visual y postural por trabajo prolongado frente al computador.',
+      'Estrés por plazos ajustados de entrega.',
+    ],
+    requerimientos: [
+      'Grado en Ingeniería de Sistemas, Informática o carreras afines.',
+      'Conocimientos en lenguajes de programación (Java, Python, JavaScript u otros).',
+      'Conocimientos en bases de datos y control de versiones.',
+      'Conocimientos básicos de metodologías ágiles.',
+    ],
+    competencias: [
+      'Pensamiento lógico y estructurado.',
+      'Capacidad de análisis de problemas técnicos.',
+      'Trabajo en equipo.',
+      'Atención al detalle.',
+    ],
+    pdf: 'https://drive.google.com/file/d/1gisE80f15eaedlM8UUKEG3p7mXKYucHo/view?usp=drive_link',
+  },
+  {
+    id: 'analista-soporte',
+    title: 'Analista de soporte al desarrollo',
+    meta: { categoria: 'Profesional', departamento: 'Software', titulares: 1, jornada: 'Tiempo completo' },
+    finalidad: [
+      'Brindar soporte técnico al equipo de desarrollo y a los sistemas del área.',
+      'Atender y resolver incidencias reportadas por los usuarios.',
+      'Colaborar en pruebas y validación de los sistemas en desarrollo.',
+    ],
+    eficiencia: [
+      'Tiempo de resolución de incidencias reportadas.',
+      'Calidad del soporte brindado al equipo y a los usuarios.',
+      'Cobertura de pruebas realizadas sobre los sistemas.',
+    ],
+    funciones: [
+      'Registrar y dar seguimiento a incidencias técnicas.',
+      'Realizar pruebas funcionales de los sistemas en desarrollo.',
+      'Coordinar con el desarrollador la resolución de errores detectados.',
+      'Elaborar reportes de incidencias y soporte.',
+    ],
+    relaciones: {
+      jerarquicas: 'Reporta al Líder de Desarrollo.',
+      funcionales: 'Coordina con el desarrollador de sistemas y el especialista de herramientas de desarrollo.',
+    },
+    responsabilidad: [
+      'Responsabilidad sobre el seguimiento y cierre oportuno de incidencias.',
+      'Manejo de información y reportes de soporte del área.',
+    ],
+    condiciones: [
+      'Opera principalmente en entorno de oficina, con atención a solicitudes de soporte.',
+      'Disponibilidad ocasional fuera de horario ante incidencias críticas.',
+    ],
+    riesgos: [
+      'Estrés por atención de incidencias críticas en tiempo reducido.',
+      'Sobrecarga de trabajo en picos de solicitudes de soporte.',
+    ],
+    requerimientos: [
+      'Grado en Ingeniería de Sistemas, Informática o carreras afines.',
+      'Conocimientos en pruebas de software y gestión de incidencias.',
+      'Conocimientos básicos de programación y bases de datos.',
+      'Habilidad de comunicación con usuarios internos.',
+    ],
+    competencias: [
+      'Orientación al servicio y resolución de problemas.',
+      'Comunicación efectiva.',
+      'Organización y seguimiento de tareas.',
+      'Trabajo en equipo.',
+    ],
+    pdf: 'https://drive.google.com/file/d/1B2NdR2YHSFqOmw3x1yzIrktcKUEara-e/view?usp=drive_link',
+  },
+  {
+    id: 'especialista-herramientas',
+    title: 'Especialista de herramientas de desarrollo',
+    meta: { categoria: 'Profesional', departamento: 'Software', titulares: 1, jornada: 'Tiempo completo' },
+    finalidad: [
+      'Administrar y mantener las herramientas y el entorno de desarrollo del equipo.',
+      'Asegurar la disponibilidad de los entornos de trabajo del equipo de desarrollo.',
+      'Apoyar al equipo en la adopción de buenas prácticas de control de versiones e integración.',
+    ],
+    eficiencia: [
+      'Disponibilidad y estabilidad de las herramientas de desarrollo.',
+      'Adopción de buenas prácticas de control de versiones por el equipo.',
+      'Tiempo de resolución de problemas de entorno de desarrollo.',
+    ],
+    funciones: [
+      'Configurar y mantener las herramientas de control de versiones y entornos de prueba.',
+      'Dar soporte al equipo en el uso de las herramientas de desarrollo.',
+      'Evaluar e implementar mejoras en el entorno de trabajo del equipo.',
+      'Documentar la configuración de las herramientas utilizadas.',
+    ],
+    relaciones: {
+      jerarquicas: 'Reporta al Líder de Desarrollo.',
+      funcionales: 'Coordina con el desarrollador de sistemas y el analista de soporte al desarrollo.',
+    },
+    responsabilidad: [
+      'Responsabilidad sobre la disponibilidad de las herramientas y el entorno de desarrollo.',
+      'Manejo de accesos y configuraciones del entorno de trabajo del equipo.',
+    ],
+    condiciones: [
+      'Opera principalmente en entorno de oficina, con posibilidad de trabajo remoto.',
+      'Disponibilidad ocasional fuera de horario ante fallas del entorno de desarrollo.',
+    ],
+    riesgos: [
+      'Estrés ante fallas críticas del entorno de desarrollo.',
+      'Sobrecarga de trabajo durante actualizaciones o migraciones de herramientas.',
+    ],
+    requerimientos: [
+      'Grado en Ingeniería de Sistemas, Informática o carreras afines.',
+      'Conocimientos en control de versiones y entornos de desarrollo.',
+      'Conocimientos básicos de automatización y contenedores.',
+      'Conocimientos generales de programación.',
+    ],
+    competencias: [
+      'Pensamiento analítico y resolución de problemas técnicos.',
+      'Organización y atención al detalle.',
+      'Trabajo colaborativo con el equipo de desarrollo.',
+      'Proactividad para la mejora continua de herramientas.',
+    ],
+    pdf: 'https://drive.google.com/file/d/10oEte44L4K132HbXNKwuDxPJABEAUwcR/view?usp=drive_link',
+  },
+]
 
 export const gestionIntroImage =
   'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/CERN_control_room_computer_monitors.jpg/960px-CERN_control_room_computer_monitors.jpg'

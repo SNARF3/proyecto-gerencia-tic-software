@@ -633,6 +633,8 @@ section.split.band {
 
 .org-node {
   --tier-color: #c084fc;
+  appearance: none;
+  font: inherit;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 16px;
   padding: 18px 20px;
@@ -695,12 +697,6 @@ section.split.band {
   color: var(--text-light);
 }
 
-.org-node-name {
-  font-size: 0.85rem;
-  color: var(--tier-color);
-  font-weight: 700;
-}
-
 .org-node-cta {
   font-size: 0.72rem;
   color: rgba(255, 255, 255, 0.5);
@@ -756,6 +752,89 @@ section.split.band {
     transform: none;
     transition: none;
   }
+}
+
+/* ---------- Position descriptions ---------- */
+.position-meta-card {
+  margin-bottom: 24px;
+}
+
+.position-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.position-meta-row .chip {
+  background: rgba(124, 58, 237, 0.08);
+  color: var(--text-dark);
+  border: 1px solid var(--border-soft);
+  backdrop-filter: none;
+}
+
+.position-grid {
+  margin-top: 0;
+}
+
+.position-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.position-list li {
+  margin-bottom: 6px;
+}
+
+.position-card-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: linear-gradient(90deg, var(--purple-600), var(--magenta-500));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.position-card-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 34px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--purple-600), var(--magenta-500));
+}
+
+.position-pdf {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.pdf-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 999px;
+  background: var(--gradient-accent);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 24px -10px rgba(214, 36, 159, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pdf-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -10px rgba(214, 36, 159, 0.7);
 }
 
 /* ---------- Footer ---------- */
