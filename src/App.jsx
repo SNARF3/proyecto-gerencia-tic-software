@@ -4,13 +4,15 @@ import Inicio from './components/Inicio'
 import Organigrama from './components/Organigrama'
 import GestionTecnologia from './components/GestionTecnologia'
 import CienciaTecnologia from './components/CienciaTecnologia'
+import MisionVision from './components/MisionVision'
 import './App.css'
 
 const TABS = [
   { id: 'inicio', label: 'Inicio', Component: Inicio },
-  { id: 'organigrama', label: 'Organigrama', Component: Organigrama },
   { id: 'gestion', label: 'Gestión de Tecnología', Component: GestionTecnologia },
   { id: 'ciencia', label: 'Ciencia, Tecnología e Innovación', Component: CienciaTecnologia },
+  { id: 'mision-vision', label: 'Misión y Visión', Component: MisionVision },
+  { id: 'organigrama', label: 'Organigrama', Component: Organigrama },
 ]
 
 export default function App() {

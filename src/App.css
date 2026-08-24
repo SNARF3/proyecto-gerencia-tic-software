@@ -442,6 +442,29 @@ section.split.band {
   border-radius: 50%;
 }
 
+/* ---------- Video embeds ---------- */
+.video-card h3 {
+  margin-bottom: 4px;
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-top: 14px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* ---------- Team ---------- */
 .team-card {
   text-align: center;
