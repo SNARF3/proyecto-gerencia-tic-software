@@ -127,7 +127,7 @@ export const positions = [
       'Habilidades de comunicación y negociación.',
       'Capacidad de toma de decisiones.',
     ],
-    pdf: 'https://drive.google.com/file/d/1jWa9guEWsy72vE70rKbb6hm8KwxetIIB/view?usp=drive_link',
+    pdf: 'https://drive.google.com/file/d/1KoWJLAc3Sokf6uuSE2TcwUiOqI_1qB6f/view?usp=drive_link',
   },
   {
     id: 'lider-desarrollo',
@@ -180,7 +180,7 @@ export const positions = [
       'Habilidades de comunicación.',
       'Capacidad de análisis y mejora.',
     ],
-    pdf: 'https://drive.google.com/file/d/1crILrn1KiGaS_LF6ZxrTWpsG4UOoZs8n/view?usp=drive_link',
+    pdf: 'https://drive.google.com/file/d/1dWa6eD38E8kvd87SAWQAdia_FPE-3GNO/view?usp=drive_link',
   },
   {
     id: 'desarrollador-sistemas',
@@ -230,7 +230,7 @@ export const positions = [
       'Trabajo en equipo.',
       'Atención al detalle.',
     ],
-    pdf: 'https://drive.google.com/file/d/1gisE80f15eaedlM8UUKEG3p7mXKYucHo/view?usp=drive_link',
+    pdf: 'https://drive.google.com/file/d/1fvY4GvFtFdrpOgzYLzmABo9lu0Cyps8O/view?usp=drive_link',
   },
   {
     id: 'analista-soporte',
@@ -280,7 +280,7 @@ export const positions = [
       'Organización y seguimiento de tareas.',
       'Trabajo en equipo.',
     ],
-    pdf: 'https://drive.google.com/file/d/1B2NdR2YHSFqOmw3x1yzIrktcKUEara-e/view?usp=drive_link',
+    pdf: 'https://drive.google.com/file/d/1ExZl3mJXcaXFYN95y7oX9qiutkiVmTHs/view?usp=drive_link',
   },
   {
     id: 'especialista-herramientas',
@@ -330,7 +330,7 @@ export const positions = [
       'Trabajo colaborativo con el equipo de desarrollo.',
       'Proactividad para la mejora continua de herramientas.',
     ],
-    pdf: 'https://drive.google.com/file/d/10oEte44L4K132HbXNKwuDxPJABEAUwcR/view?usp=drive_link',
+    pdf: 'https://drive.google.com/file/d/11LoZqZijirAlELznk1oiJTOlPE19zmXM/view?usp=drive_link',
   },
 ]
 
