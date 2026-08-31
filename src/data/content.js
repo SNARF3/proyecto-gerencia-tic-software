@@ -584,3 +584,95 @@ export const procesosInnovacion = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Optical_fiber_cable-01ASD.jpg/960px-Optical_fiber_cable-01ASD.jpg',
   },
 ]
+
+export const scrumCaracteristicas = [
+  {
+    title: 'Iterativo e incremental',
+    text: 'El trabajo se entrega en ciclos cortos llamados sprints, construyendo el producto poco a poco en versiones funcionales.',
+    icon: 'cycle',
+  },
+  {
+    title: 'Adaptable',
+    text: 'Se ajusta con facilidad a cambios de prioridades, requerimientos o condiciones del proyecto entre un sprint y otro.',
+    icon: 'compass',
+  },
+  {
+    title: 'Colaborativo',
+    text: 'El equipo trabaja de forma conjunta y autoorganizada, tomando decisiones técnicas sin depender de una jerarquía rígida.',
+    icon: 'handshake',
+  },
+  {
+    title: 'Transparente',
+    text: 'El progreso, los obstáculos y los resultados del trabajo son visibles para todo el equipo y los interesados.',
+    icon: 'chart',
+  },
+  {
+    title: 'Basado en el valor',
+    text: 'Prioriza primero lo que aporta mayor valor al negocio y a las personas usuarias del producto.',
+    icon: 'award',
+  },
+  {
+    title: 'Empírico',
+    text: 'Se apoya en la inspección y la adaptación constantes, aprendiendo de la experiencia real en cada sprint.',
+    icon: 'flask',
+  },
+]
+
+export const scrumEventos = [
+  {
+    title: 'Sprint Planning',
+    text: 'El equipo define qué elementos del backlog se trabajarán durante el sprint y cómo se lograrán.',
+    icon: 'target',
+  },
+  {
+    title: 'Daily Scrum',
+    text: 'Reunión diaria y breve (15 minutos) para sincronizar avances, planes del día y posibles obstáculos.',
+    icon: 'calendar',
+  },
+  {
+    title: 'Sprint Review',
+    text: 'Se presenta el incremento terminado a los interesados y se recoge retroalimentación sobre el producto.',
+    icon: 'chart',
+  },
+  {
+    title: 'Sprint Retrospective',
+    text: 'El equipo reflexiona sobre cómo trabajó durante el sprint y define mejoras para el siguiente ciclo.',
+    icon: 'spark',
+  },
+]
+
+export const scrumRoles = [
+  {
+    title: 'Product Owner',
+    text: 'Define y prioriza el Product Backlog, representando la voz del negocio y de las personas usuarias.',
+    icon: 'compass',
+  },
+  {
+    title: 'Scrum Master',
+    text: 'Facilita el proceso, elimina obstáculos del equipo y asegura que se sigan los principios y valores de Scrum.',
+    icon: 'shield',
+  },
+  {
+    title: 'Equipo de Desarrollo',
+    text: 'Grupo autoorganizado y multidisciplinario que construye el incremento del producto en cada sprint.',
+    icon: 'users',
+  },
+]
+
+export const scrumArtefactos = [
+  {
+    title: 'Product Backlog',
+    text: 'Lista ordenada y viva de todo lo que podría necesitar el producto: funcionalidades, mejoras y correcciones.',
+    icon: 'book',
+  },
+  {
+    title: 'Sprint Backlog',
+    text: 'Conjunto de elementos del Product Backlog seleccionados para el sprint actual, más el plan para entregarlos.',
+    icon: 'layers',
+  },
+  {
+    title: 'Incremento',
+    text: 'Suma de todo el trabajo terminado durante el sprint, en un estado utilizable y listo para inspección.',
+    icon: 'check',
+  },
+]

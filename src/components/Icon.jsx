@@ -22,6 +22,8 @@ const paths = {
   flask: <><path d="M10 3h4M10 3v6l-5.5 9.2A1.5 1.5 0 005.8 21h12.4a1.5 1.5 0 001.3-2.8L14 9V3" /><path d="M8 15h8" /></>,
   people: <><circle cx="9" cy="7" r="3" /><path d="M3 21c0-4 2.7-6.5 6-6.5s6 2.5 6 6.5" /><circle cx="17" cy="8" r="2.4" /><path d="M15 14.5c2.7.5 4.5 2.7 4.5 6.5" /></>,
   check: <path d="M5 12.5l4.5 4.5L19 7" />,
+  calendar: <><rect x="4" y="5" width="16" height="15" rx="2" /><path d="M4 9.5h16" /><path d="M8 3v4M16 3v4" /><circle cx="8.3" cy="14" r="0.9" fill="currentColor" /><circle cx="12" cy="14" r="0.9" fill="currentColor" /><circle cx="15.7" cy="14" r="0.9" fill="currentColor" /></>,
+  cycle: <><path d="M4.5 12a7.5 7.5 0 0113-5" /><path d="M17.5 5v4.5H13" /><path d="M19.5 12a7.5 7.5 0 01-13 5" /><path d="M6.5 19v-4.5H11" /></>,
 }
 
 export function Icon({ name, size = 24 }) {
