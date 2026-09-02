@@ -862,6 +862,80 @@ section.split.band {
   box-shadow: 0 14px 30px -10px rgba(214, 36, 159, 0.7);
 }
 
+/* ---------- MBTI ---------- */
+.mbti-poles {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.mbti-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.mbti-avatar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  margin: -28px -28px 16px;
+  background: linear-gradient(160deg, var(--lavender-bg-2), var(--lavender-bg));
+  border-radius: 16px 16px 0 0;
+}
+
+.mbti-avatar {
+  height: 140px;
+  width: auto;
+  max-width: 80%;
+}
+
+.mbti-type-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: var(--gradient-accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.mbti-fit {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.mbti-objetivo {
+  margin-top: 10px;
+}
+
+.mbti-role-link {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: transparent;
+  color: var(--purple-600);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.mbti-role-link:hover {
+  background: var(--gradient-accent);
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background: var(--navy-950);

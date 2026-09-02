@@ -676,3 +676,99 @@ export const scrumArtefactos = [
     icon: 'check',
   },
 ]
+
+export const mbtiDimensiones = [
+  {
+    title: 'Energía',
+    poles: 'Extravertido (E) ↔ Introvertido (I)',
+    text: 'De dónde obtiene energía la persona: del mundo exterior, la acción y la interacción social, o de su mundo interior, las ideas y la reflexión a solas.',
+    icon: 'users',
+  },
+  {
+    title: 'Mente',
+    poles: 'Intuitivo (N) ↔ Observador (S)',
+    text: 'Cómo procesa la información: enfocándose en posibilidades, patrones e ideas abstractas, o en hechos concretos y la experiencia práctica.',
+    icon: 'bulb',
+  },
+  {
+    title: 'Naturaleza',
+    poles: 'Pensamiento (T) ↔ Sentimiento (F)',
+    text: 'Cómo toma decisiones: guiándose por la lógica y el análisis objetivo, o considerando los valores y el impacto en las personas.',
+    icon: 'handshake',
+  },
+  {
+    title: 'Tácticas',
+    poles: 'Juicio (J) ↔ Percepción (P)',
+    text: 'Cómo se organiza frente al mundo: con planificación, estructura y decisiones firmes, o con flexibilidad, espontaneidad y opciones abiertas.',
+    icon: 'layers',
+  },
+  {
+    title: 'Identidad',
+    poles: 'Asertivo (A) ↔ Turbulento (T)',
+    text: 'Qué tan segura se siente la persona de sus decisiones: con confianza y calma bajo presión, o con mayor autoexigencia y sensibilidad al estrés.',
+    icon: 'shield',
+  },
+]
+
+export const mbtiResultados = [
+  {
+    name: 'Marvin Mollo',
+    role: 'Subgerente de Software',
+    positionId: 'subgerente-software',
+    type: 'ENTJ-A',
+    nickname: 'Comandante',
+    image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/commander.svg?v=2',
+    description:
+      'Líder natural, decidido y estratégico, que se enfoca en mejorar procesos y alcanzar metas ambiciosas. Es organizado, seguro de sí mismo y impulsa la eficiencia en todo lo que emprende.',
+    fit: 'Su liderazgo natural, su seguridad para tomar decisiones (identidad Asertiva) y su visión estratégica lo posicionan como Subgerente de Software: quien dirige el área, define prioridades y responde por sus resultados ante la Gerencia General.',
+    objetivo: 'Consolidar una gestión estratégica del área de Software, alineando cada proyecto con los objetivos de la empresa y garantizando el cumplimiento de plazos, presupuesto y calidad.',
+  },
+  {
+    name: 'Adrián Ordóñez',
+    role: 'Líder de Desarrollo',
+    positionId: 'lider-desarrollo',
+    type: 'INTJ-A',
+    nickname: 'Arquitecto',
+    image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/architect.svg?v=2',
+    description:
+      'Pensador estratégico e imaginativo, con un plan para todo. Es analítico, independiente y disfruta diseñando soluciones complejas y eficientes a partir de la lógica y la mejora continua.',
+    fit: 'Su pensamiento estructurado y su facilidad para diseñar sistemas completos lo convierten en el Líder de Desarrollo ideal: traduce los lineamientos de la Subgerencia en un plan técnico claro y guía al equipo hacia soluciones bien pensadas.',
+    objetivo: 'Fortalecer la calidad técnica del equipo de desarrollo, estableciendo estándares claros de arquitectura y buenas prácticas que reduzcan errores e incidencias en los sistemas.',
+  },
+  {
+    name: 'Adrián Gonzales',
+    role: 'Desarrollador de Sistemas',
+    positionId: 'desarrollador-sistemas',
+    type: 'ISTP-T',
+    nickname: 'Virtuoso',
+    image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/virtuoso.svg?v=2',
+    description:
+      'Explorador práctico que disfruta de los retos técnicos y de entender cómo funcionan las cosas por dentro. Resuelve problemas de forma directa, trabaja bien de manera independiente y se adapta con rapidez a los imprevistos.',
+    fit: 'Su habilidad para resolver problemas técnicos de forma directa y su gusto por entender cómo funciona cada pieza por dentro lo hacen un Desarrollador de Sistemas natural, cómodo programando y corrigiendo errores sobre la marcha.',
+    objetivo: 'Entregar funcionalidades estables y bien probadas en cada sprint, resolviendo con rapidez los errores técnicos que surjan durante el desarrollo de los sistemas.',
+  },
+  {
+    name: 'Diego Laguna',
+    role: 'Analista de Soporte al Desarrollo',
+    positionId: 'analista-soporte',
+    type: 'ENFP-T',
+    nickname: 'Activista',
+    image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/campaigner.svg?v=2',
+    description:
+      'Espíritu libre, entusiasta y sociable que conecta con facilidad con las personas. Combina creatividad, empatía y energía positiva, y encuentra satisfacción en ayudar a resolver los problemas de los demás.',
+    fit: 'Su cercanía, empatía y facilidad de comunicación son claves para el Analista de Soporte al Desarrollo, un rol que exige escuchar a los usuarios, entender sus incidencias y acompañarlos hasta resolverlas.',
+    objetivo: 'Reducir el tiempo de resolución de incidencias y mejorar la experiencia de soporte, fortaleciendo la comunicación entre los usuarios y el equipo de desarrollo.',
+  },
+  {
+    name: 'Adriana Álvarez',
+    role: 'Especialista de Herramientas de Desarrollo',
+    positionId: 'especialista-herramientas',
+    type: 'ISFJ-T',
+    nickname: 'Defensora',
+    image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/defender.svg?v=2',
+    description:
+      'Personalidad cálida y responsable que ofrece apoyo constante y cuidado práctico a quienes la rodean. Destaca por su atención al detalle, su memoria para lo importante y su compromiso con crear estabilidad y confort para su equipo.',
+    fit: 'Su responsabilidad, atención al detalle y vocación de cuidado la convierten en la Especialista de Herramientas de Desarrollo ideal: mantiene estables los entornos del equipo y vela con cuidado por cada configuración y acceso.',
+    objetivo: 'Mantener un entorno de desarrollo estable, seguro y bien documentado, asegurando que el equipo cuente siempre con las herramientas adecuadas para trabajar sin interrupciones.',
+  },
+]

@@ -6,6 +6,7 @@ import GestionTecnologia from './components/GestionTecnologia'
 import CienciaTecnologia from './components/CienciaTecnologia'
 import MisionVision from './components/MisionVision'
 import DescripcionPuestos from './components/DescripcionPuestos'
+import MBTI from './components/MBTI'
 import Scrum from './components/Scrum'
 import './App.css'
 
@@ -16,6 +17,7 @@ const TABS = [
   { id: 'mision-vision', label: 'Misión y Visión', Component: MisionVision },
   { id: 'organizacion', label: 'Organización', Component: Organigrama },
   { id: 'descripcion-puestos', label: 'Descripción de Posiciones', Component: DescripcionPuestos },
+  { id: 'mbti', label: 'MBTI', Component: MBTI },
   { id: 'scrum', label: 'Scrum', Component: Scrum },
 ]
 
