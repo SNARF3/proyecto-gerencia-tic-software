@@ -720,7 +720,6 @@ export const mbtiResultados = [
     image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/commander.svg?v=2',
     description:
       'Líder natural, decidido y estratégico, que se enfoca en mejorar procesos y alcanzar metas ambiciosas. Es organizado, seguro de sí mismo y impulsa la eficiencia en todo lo que emprende.',
-    fit: 'Su liderazgo natural, su seguridad para tomar decisiones (identidad Asertiva) y su visión estratégica lo posicionan como Subgerente de Software: quien dirige el área, define prioridades y responde por sus resultados ante la Gerencia General.',
     objetivo: 'Consolidar una gestión estratégica del área de Software, alineando cada proyecto con los objetivos de la empresa y garantizando el cumplimiento de plazos, presupuesto y calidad.',
   },
   {
@@ -732,7 +731,6 @@ export const mbtiResultados = [
     image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/architect.svg?v=2',
     description:
       'Pensador estratégico e imaginativo, con un plan para todo. Es analítico, independiente y disfruta diseñando soluciones complejas y eficientes a partir de la lógica y la mejora continua.',
-    fit: 'Su pensamiento estructurado y su facilidad para diseñar sistemas completos lo convierten en el Líder de Desarrollo ideal: traduce los lineamientos de la Subgerencia en un plan técnico claro y guía al equipo hacia soluciones bien pensadas.',
     objetivo: 'Fortalecer la calidad técnica del equipo de desarrollo, estableciendo estándares claros de arquitectura y buenas prácticas que reduzcan errores e incidencias en los sistemas.',
   },
   {
@@ -744,7 +742,6 @@ export const mbtiResultados = [
     image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/virtuoso.svg?v=2',
     description:
       'Explorador práctico que disfruta de los retos técnicos y de entender cómo funcionan las cosas por dentro. Resuelve problemas de forma directa, trabaja bien de manera independiente y se adapta con rapidez a los imprevistos.',
-    fit: 'Su habilidad para resolver problemas técnicos de forma directa y su gusto por entender cómo funciona cada pieza por dentro lo hacen un Desarrollador de Sistemas natural, cómodo programando y corrigiendo errores sobre la marcha.',
     objetivo: 'Entregar funcionalidades estables y bien probadas en cada sprint, resolviendo con rapidez los errores técnicos que surjan durante el desarrollo de los sistemas.',
   },
   {
@@ -756,7 +753,6 @@ export const mbtiResultados = [
     image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/campaigner.svg?v=2',
     description:
       'Espíritu libre, entusiasta y sociable que conecta con facilidad con las personas. Combina creatividad, empatía y energía positiva, y encuentra satisfacción en ayudar a resolver los problemas de los demás.',
-    fit: 'Su cercanía, empatía y facilidad de comunicación son claves para el Analista de Soporte al Desarrollo, un rol que exige escuchar a los usuarios, entender sus incidencias y acompañarlos hasta resolverlas.',
     objetivo: 'Reducir el tiempo de resolución de incidencias y mejorar la experiencia de soporte, fortaleciendo la comunicación entre los usuarios y el equipo de desarrollo.',
   },
   {
@@ -768,7 +764,6 @@ export const mbtiResultados = [
     image: 'https://www.16personalities.com/static/animations/type-descriptions/introductions/defender.svg?v=2',
     description:
       'Personalidad cálida y responsable que ofrece apoyo constante y cuidado práctico a quienes la rodean. Destaca por su atención al detalle, su memoria para lo importante y su compromiso con crear estabilidad y confort para su equipo.',
-    fit: 'Su responsabilidad, atención al detalle y vocación de cuidado la convierten en la Especialista de Herramientas de Desarrollo ideal: mantiene estables los entornos del equipo y vela con cuidado por cada configuración y acceso.',
     objetivo: 'Mantener un entorno de desarrollo estable, seguro y bien documentado, asegurando que el equipo cuente siempre con las herramientas adecuadas para trabajar sin interrupciones.',
   },
 ]

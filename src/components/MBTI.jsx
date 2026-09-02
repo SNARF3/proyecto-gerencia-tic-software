@@ -2,7 +2,7 @@ import { mbtiDimensiones, mbtiResultados } from '../data/content'
 import { IconBadge } from './Icon'
 import Reveal from './Reveal'
 
-function ResultCard({ result, index, onNavigate }) {
+function ResultCard({ result, index }) {
   return (
     <Reveal delay={index * 90}>
       <article className="card mbti-card">
@@ -13,25 +13,13 @@ function ResultCard({ result, index, onNavigate }) {
         <h3 className="tight">
           {result.name} · {result.nickname}
         </h3>
-        <p className="muted small">{result.role}</p>
         <p className="small">{result.description}</p>
-        <div className="mbti-fit">
-          <p className="small">
-            <strong>Por qué encaja en su cargo:</strong> {result.fit}
-          </p>
-          <p className="small mbti-objetivo">
-            <strong>Objetivo en el cargo:</strong> {result.objetivo}
-          </p>
-          <button type="button" className="mbti-role-link" onClick={() => onNavigate?.(result.positionId)}>
-            Ver descripción del cargo ↗
-          </button>
-        </div>
       </article>
     </Reveal>
   )
 }
 
-export default function MBTI({ onNavigate }) {
+export default function MBTI() {
   return (
     <>
       <section className="hero hero-sm">
@@ -91,11 +79,11 @@ export default function MBTI({ onNavigate }) {
       <section className="section">
         <p className="centered muted" style={{ maxWidth: 720, margin: '0 auto 32px' }}>
           Cada integrante del equipo realizó el test de personalidad en 16personalities. Estos son
-          sus resultados y el cargo del organigrama que mejor se ajusta a su forma de trabajar.
+          los resultados que obtuvo cada quien.
         </p>
         <div className="grid grid-3">
           {mbtiResultados.map((r, i) => (
-            <ResultCard key={r.name} result={r} index={i} onNavigate={onNavigate} />
+            <ResultCard key={r.name} result={r} index={i} />
           ))}
         </div>
       </section>
