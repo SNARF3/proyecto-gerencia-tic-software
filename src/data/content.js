@@ -646,16 +646,19 @@ export const scrumRoles = [
     title: 'Product Owner',
     text: 'Define y prioriza el Product Backlog, representando la voz del negocio y de las personas usuarias.',
     icon: 'compass',
+    people: 'Ing. Yamil Cárdenas',
   },
   {
     title: 'Scrum Master',
     text: 'Facilita el proceso, elimina obstáculos del equipo y asegura que se sigan los principios y valores de Scrum.',
     icon: 'shield',
+    people: 'Adriana Álvarez',
   },
   {
     title: 'Equipo de Desarrollo',
     text: 'Grupo autoorganizado y multidisciplinario que construye el incremento del producto en cada sprint.',
     icon: 'users',
+    people: 'Adrián Gonzales, Diego Laguna, Marvin Mollo y Adrián Ordóñez',
   },
 ]
 

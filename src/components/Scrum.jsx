@@ -94,6 +94,7 @@ export default function Scrum() {
               <article className="card centered">
                 <IconBadge name={r.icon} tone="purple" size={64} />
                 <h3>{r.title}</h3>
+                <span className="scrum-people-chip">{r.people}</span>
                 <p className="small">{r.text}</p>
               </article>
             </Reveal>
