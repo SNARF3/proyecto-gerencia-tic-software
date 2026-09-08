@@ -23,6 +23,7 @@ function Steps({ steps }) {
             <CardPhoto src={s.image} alt={s.title} />
             {!s.image && <IconBadge name="check" tone="purple" size={44} />}
             <h3 className="tight">{s.title}</h3>
+            <p className="small">{s.text}</p>
           </div>
         </Reveal>
       ))}
@@ -90,6 +91,7 @@ export default function CienciaTecnologia() {
                 <CardPhoto src={e.image} alt={e.title} />
                 <IconBadge name={e.icon} tone="purple" size={64} />
                 <h3>{e.title}</h3>
+                <p className="small">{e.text}</p>
               </article>
             </Reveal>
           ))}
@@ -183,6 +185,7 @@ export default function CienciaTecnologia() {
                 <CardPhoto src={p.image} alt={p.title} />
                 {!p.image && <IconBadge name="check" tone="purple" size={40} />}
                 <h3 className="tight">{p.title}</h3>
+                <p className="small">{p.text}</p>
               </div>
             </Reveal>
           ))}

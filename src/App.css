@@ -480,16 +480,37 @@ section.split.band {
   animation-delay: 0.6s;
 }
 
-.scrum-people-chip {
-  display: inline-block;
+.scrum-people-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
   margin: 8px 0 12px;
+}
+
+.scrum-people-chip {
+  appearance: none;
+  display: inline-block;
   padding: 5px 14px;
   border-radius: 999px;
   background: rgba(124, 58, 237, 0.08);
   border: 1px solid var(--border-soft);
   color: var(--purple-600);
+  font: inherit;
   font-weight: 700;
   font-size: 0.82rem;
+}
+
+.scrum-people-chip.is-link {
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.scrum-people-chip.is-link:hover {
+  background: var(--gradient-accent);
+  border-color: transparent;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 /* ---------- Cards ---------- */
@@ -1102,6 +1123,32 @@ section.split.band {
 .pdf-link:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 30px -10px rgba(214, 36, 159, 0.7);
+}
+
+.view-cargo-link {
+  appearance: none;
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: transparent;
+  color: var(--purple-600);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.view-cargo-link:hover {
+  background: var(--gradient-accent);
+  border-color: transparent;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 /* ---------- MBTI ---------- */

@@ -34,6 +34,22 @@ export default function Inicio() {
         </Reveal>
       </section>
 
+      <section className="section" style={{ paddingTop: 0 }}>
+        <Reveal>
+          <div className="card panel">
+            <h2>¿Cuál es el objetivo de nuestra área?</h2>
+            <p>
+              El Área de Software existe para diseñar, desarrollar y mantener soluciones
+              tecnológicas que respondan a las necesidades reales de la empresa. Nuestro objetivo
+              es planificar y ejecutar cada proyecto con calidad, alinear el trabajo del equipo
+              con los objetivos estratégicos de la organización, y sostener en el tiempo los
+              sistemas que construimos, cuidando tanto la funcionalidad como la seguridad de cada
+              solución.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
       <section className="band dark divider">
         <Reveal as="h2" className="band-title">
           Nuestro Equipo

@@ -27,11 +27,13 @@ export default function App() {
   const Active = TABS.find((t) => t.id === activeTab).Component
 
   function handleTabChange(id) {
+    window.scrollTo(0, 0)
     setActiveTab(id)
     setScrollTarget(null)
   }
 
   function goToPosition(positionId) {
+    window.scrollTo(0, 0)
     setActiveTab('descripcion-puestos')
     setScrollTarget(positionId)
   }
