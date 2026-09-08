@@ -1,15 +1,21 @@
 export const team = [
   {
-    name: 'Adriana Alvarez',
+    name: 'Marvin Mollo',
     role: 'Subgerente de Software',
     bio: 'Conduce al equipo con organización y visión estratégica. Su liderazgo asegura que cada proyecto avance con claridad y compromiso.',
     gradient: 'grad-a',
   },
   {
-    name: 'Adrian Gonzales',
+    name: 'Adrián Ordóñez',
     role: 'Líder de Desarrollo',
     bio: 'Le apasiona investigar nuevas tendencias y proponer ideas frescas. Es el motor creativo que impulsa la innovación dentro del grupo.',
     gradient: 'grad-b',
+  },
+  {
+    name: 'Adrián Gonzales',
+    role: 'Desarrollador de Sistemas',
+    bio: 'Se caracteriza por su eficiencia y capacidad de superar obstáculos. Para él, no existen impedimentos: siempre logra cumplir con las metas.',
+    gradient: 'grad-e',
   },
   {
     name: 'Diego Laguna',
@@ -18,16 +24,10 @@ export const team = [
     gradient: 'grad-c',
   },
   {
-    name: 'Marvin Mollo',
+    name: 'Adriana Álvarez',
     role: 'Especialista de Herramientas de Desarrollo',
     bio: 'Destaca en la creación de sitios web con diseños atractivos y funcionales. Su creatividad convierte las ideas en experiencias digitales.',
     gradient: 'grad-d',
-  },
-  {
-    name: 'Adrián Ordóñez',
-    role: 'Desarrollador de Sistemas',
-    bio: 'Se caracteriza por su eficiencia y capacidad de superar obstáculos. Para él, no existen impedimentos: siempre logra cumplir con las metas.',
-    gradient: 'grad-e',
   },
 ]
 
@@ -370,16 +370,19 @@ export const gestionComponentes = [
 export const gestionProcesos = [
   {
     title: 'Gestión de proyectos',
+    text: 'Planifica, organiza y da seguimiento a cada proyecto tecnológico, definiendo alcance, cronograma y recursos para cumplir los objetivos establecidos.',
     icon: 'chart',
     image: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Gantt_chart_example.png',
   },
   {
     title: 'Gestión de riesgos',
+    text: 'Identifica, evalúa y controla los riesgos que podrían afectar los proyectos o la infraestructura, reduciendo su impacto antes de que ocurran.',
     icon: 'shield',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Life_Jackets_2451.jpg/960px-Life_Jackets_2451.jpg',
   },
   {
     title: 'Metodologías Ágiles',
+    text: 'Organiza el trabajo en ciclos cortos e iterativos que permiten entregar valor de forma constante y adaptarse rápido a los cambios.',
     icon: 'rocket',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/960px-CRS-9_mission_%2828348649546%29.jpg',
   },
@@ -389,6 +392,7 @@ export const gestionHerramientas = [
   {
     title: 'Aplicaciones para gestionar proyectos',
     sub: 'Jira · Trello',
+    text: 'Permiten planificar tareas, asignar responsables y dar seguimiento visual al avance de cada proyecto del equipo.',
     icon: 'layers',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dash_Coffee_at_Gate_1_Dasma_-_Interior_-_Post-it_notes_wall_2.jpg/960px-Dash_Coffee_at_Gate_1_Dasma_-_Interior_-_Post-it_notes_wall_2.jpg',
@@ -396,6 +400,7 @@ export const gestionHerramientas = [
   {
     title: 'Herramientas de Monitorización',
     sub: '',
+    text: 'Vigilan en tiempo real el estado de los sistemas y la infraestructura, alertando ante fallas o caídas de rendimiento.',
     icon: 'chart',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Control_Room_of_the_Okeanos_Explorer_R337.jpg/960px-Control_Room_of_the_Okeanos_Explorer_R337.jpg',
@@ -403,6 +408,7 @@ export const gestionHerramientas = [
   {
     title: 'Plataformas de análisis de datos',
     sub: 'para la toma de decisiones',
+    text: 'Transforman grandes volúmenes de información en reportes claros que apoyan decisiones más acertadas.',
     icon: 'database',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AMD%4014nm%40GCN_5th_gen%40Vega10%40Radeon_RX_Vega_64%40ES-Sample%40_DSCx2_top-layer_closeup%4010x.jpg/960px-AMD%4014nm%40GCN_5th_gen%40Vega10%40Radeon_RX_Vega_64%40ES-Sample%40_DSCx2_top-layer_closeup%4010x.jpg',
@@ -410,6 +416,7 @@ export const gestionHerramientas = [
   {
     title: 'Seguridad, gestión de riesgos',
     sub: 'y protección',
+    text: 'Protegen la información y los sistemas frente a accesos no autorizados, minimizando vulnerabilidades.',
     icon: 'shield',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Internet_Security_Padlock_for_VPN_%26_Online_Privacy.jpg/960px-Internet_Security_Padlock_for_VPN_%26_Online_Privacy.jpg',
@@ -419,21 +426,21 @@ export const gestionHerramientas = [
 export const gestionBeneficios = [
   {
     title: 'Eficiencia operativa',
-    text: 'Optimización del uso de recursos en el desarrollo de proyectos.',
+    text: 'Una gestión tecnológica ordenada reduce los tiempos muertos y evita la duplicación de esfuerzos, optimizando el uso de los recursos disponibles en cada proyecto.',
     icon: 'gear',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Robot_arm_picks_up_cylindrical_objects_in_a_factory_setting.jpg/960px-Robot_arm_picks_up_cylindrical_objects_in_a_factory_setting.jpg',
   },
   {
     title: 'Decisiones mejoradas',
-    text: 'Uso inteligente de datos para innovación continua.',
+    text: 'El acceso a datos confiables y actualizados permite tomar decisiones más informadas y sostener un proceso de innovación continua dentro del equipo.',
     icon: 'compass',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Reinhardtsgrimmaer_Heide%2C_Wegweiser_an_der_Landstrasse.jpg/960px-Reinhardtsgrimmaer_Heide%2C_Wegweiser_an_der_Landstrasse.jpg',
   },
   {
     title: 'Competitividad',
-    text: 'Mejor satisfacción de los clientes frente a la competencia.',
+    text: 'Entregar soluciones de mayor calidad y en menor tiempo mejora la satisfacción de las personas usuarias y posiciona mejor al equipo frente a la competencia.',
     icon: 'award',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/141100_-_Athletics_track_finish_line_from_above_-_3b_-_2000_Sydney_race_photo.jpg/960px-141100_-_Athletics_track_finish_line_from_above_-_3b_-_2000_Sydney_race_photo.jpg',
@@ -449,16 +456,23 @@ export const innovacionIntroImage =
 export const metodoCientifico = [
   {
     title: 'Observación',
+    text: 'Se identifica un fenómeno o problema y se recopila información relevante sobre él.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Microscope_eyepiece.jpg/960px-Microscope_eyepiece.jpg',
   },
-  { title: 'Hipótesis', image: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Gluehlampe_01_KMJ.jpg' },
+  {
+    title: 'Hipótesis',
+    text: 'Se plantea una explicación posible que pueda ponerse a prueba mediante la experimentación.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Gluehlampe_01_KMJ.jpg',
+  },
   {
     title: 'Experimentación',
+    text: 'Se diseñan y ejecutan pruebas controladas para comprobar si la hipótesis se cumple.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Disposable_Pipette_Tips_in_Laboratory_Tip_Boxes_02.jpg/960px-Disposable_Pipette_Tips_in_Laboratory_Tip_Boxes_02.jpg',
   },
   {
     title: 'Conclusión',
+    text: 'Se analizan los resultados obtenidos y se determina si la hipótesis se confirma, se ajusta o se descarta.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Notebook-writing-man-book-person-blur-1176206.jpg/960px-Notebook-writing-man-book-person-blur-1176206.jpg',
   },
@@ -490,11 +504,13 @@ export const ramasCiencia = [
 export const ejemplosCiencia = [
   {
     title: 'Teoría de la Relatividad',
+    text: 'Formulada por Albert Einstein, cambió la forma de entender el espacio, el tiempo y la gravedad.',
     icon: 'atom',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Einstein_blackboard.jpg/960px-Einstein_blackboard.jpg',
   },
   {
     title: 'Descubrimiento del ADN',
+    text: 'La identificación de su estructura de doble hélice permitió comprender cómo se transmite la información genética.',
     icon: 'dna',
     image: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/DNA_double_helix_%2813081113544%29.jpg',
   },
@@ -526,15 +542,25 @@ export const tiposTecnologia = [
 export const procesosTecnologia = [
   {
     title: 'Diseño',
+    text: 'Se define cómo será la solución tecnológica, estableciendo sus especificaciones y requisitos técnicos.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Engineering_drawings_of_the_VAL_256.jpg/960px-Engineering_drawings_of_the_VAL_256.jpg',
   },
-  { title: 'Prototipado', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Imprimante_3D.jpg/960px-Imprimante_3D.jpg' },
+  {
+    title: 'Prototipado',
+    text: 'Se construye una versión preliminar de la solución para probar su funcionamiento antes de producirla a mayor escala.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Imprimante_3D.jpg/960px-Imprimante_3D.jpg',
+  },
   {
     title: 'Pruebas',
+    text: 'Se evalúa el prototipo para verificar que cumple los estándares de calidad y funcionamiento esperados.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Quality_control_laboroatory_inside.jpg/960px-Quality_control_laboroatory_inside.jpg',
   },
-  { title: 'Producción', image: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Industrial_robot.jpg' },
+  {
+    title: 'Producción',
+    text: 'Se fabrica o implementa la solución a mayor escala, lista para su uso real.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Industrial_robot.jpg',
+  },
 ]
 
 export const tiposInnovacion = [
@@ -563,24 +589,29 @@ export const tiposInnovacion = [
 export const procesosInnovacion = [
   {
     title: 'Ideación',
+    text: 'Se generan y exploran nuevas ideas que respondan a una necesidad u oportunidad detectada.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Whiteboard_mobile_app_reader_behavior.JPG/960px-Whiteboard_mobile_app_reader_behavior.JPG',
   },
   {
     title: 'Selección',
+    text: 'Se evalúan las ideas generadas y se eligen las que tienen mayor viabilidad e impacto potencial.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Capital_Area_Food_Bank_%2820160330-FNS-LSC-0044%29.jpg/960px-Capital_Area_Food_Bank_%2820160330-FNS-LSC-0044%29.jpg',
   },
   {
     title: 'Desarrollo',
+    text: 'Se convierte la idea seleccionada en una solución concreta, definiendo cómo se construirá.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/RustCodeOnScreen.jpg/960px-RustCodeOnScreen.jpg',
   },
   {
     title: 'Implementación',
+    text: 'Se pone en marcha la solución desarrollada, integrándola a los procesos o productos existentes.',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Business_agreement_handshake_at_coffee_shop.jpg/960px-Business_agreement_handshake_at_coffee_shop.jpg',
   },
   {
     title: 'Difusión',
+    text: 'Se comunica y comparte la innovación con las personas usuarias o el mercado para lograr su adopción.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Optical_fiber_cable-01ASD.jpg/960px-Optical_fiber_cable-01ASD.jpg',
   },
 ]
@@ -646,19 +677,24 @@ export const scrumRoles = [
     title: 'Product Owner',
     text: 'Define y prioriza el Product Backlog, representando la voz del negocio y de las personas usuarias.',
     icon: 'compass',
-    people: 'Ing. Yamil Cárdenas',
+    people: [{ name: 'Ing. Yamil Cárdenas' }],
   },
   {
     title: 'Scrum Master',
     text: 'Facilita el proceso, elimina obstáculos del equipo y asegura que se sigan los principios y valores de Scrum.',
     icon: 'shield',
-    people: 'Adriana Álvarez',
+    people: [{ name: 'Adriana Álvarez', positionId: 'especialista-herramientas' }],
   },
   {
     title: 'Equipo de Desarrollo',
     text: 'Grupo autoorganizado y multidisciplinario que construye el incremento del producto en cada sprint.',
     icon: 'users',
-    people: 'Adrián Gonzales, Diego Laguna, Marvin Mollo y Adrián Ordóñez',
+    people: [
+      { name: 'Adrián Gonzales', positionId: 'desarrollador-sistemas' },
+      { name: 'Diego Laguna', positionId: 'analista-soporte' },
+      { name: 'Marvin Mollo', positionId: 'subgerente-software' },
+      { name: 'Adrián Ordóñez', positionId: 'lider-desarrollo' },
+    ],
   },
 ]
 
@@ -724,6 +760,8 @@ export const mbtiResultados = [
     description:
       'Líder natural, decidido y estratégico, que se enfoca en mejorar procesos y alcanzar metas ambiciosas. Es organizado, seguro de sí mismo y impulsa la eficiencia en todo lo que emprende.',
     objetivo: 'Consolidar una gestión estratégica del área de Software, alineando cada proyecto con los objetivos de la empresa y garantizando el cumplimiento de plazos, presupuesto y calidad.',
+    misionPersonal: 'Dirigir el área de Software garantizando que cada proyecto responda a las necesidades de la empresa y esté alineado con sus objetivos estratégicos.',
+    visionPersonal: 'Consolidar un área de Software reconocida por su gestión eficiente, capaz de anticiparse a los retos tecnológicos de la organización.',
   },
   {
     name: 'Adrián Ordóñez',
@@ -735,6 +773,8 @@ export const mbtiResultados = [
     description:
       'Pensador estratégico e imaginativo, con un plan para todo. Es analítico, independiente y disfruta diseñando soluciones complejas y eficientes a partir de la lógica y la mejora continua.',
     objetivo: 'Fortalecer la calidad técnica del equipo de desarrollo, estableciendo estándares claros de arquitectura y buenas prácticas que reduzcan errores e incidencias en los sistemas.',
+    misionPersonal: 'Liderar al equipo de desarrollo traduciendo los lineamientos de la Subgerencia en soluciones técnicas claras y de calidad.',
+    visionPersonal: 'Formar un equipo de desarrollo autónomo y de alto rendimiento, capaz de resolver retos técnicos cada vez más complejos.',
   },
   {
     name: 'Adrián Gonzales',
@@ -746,6 +786,8 @@ export const mbtiResultados = [
     description:
       'Explorador práctico que disfruta de los retos técnicos y de entender cómo funcionan las cosas por dentro. Resuelve problemas de forma directa, trabaja bien de manera independiente y se adapta con rapidez a los imprevistos.',
     objetivo: 'Entregar funcionalidades estables y bien probadas en cada sprint, resolviendo con rapidez los errores técnicos que surjan durante el desarrollo de los sistemas.',
+    misionPersonal: 'Desarrollar y mantener sistemas confiables, implementando funcionalidades y corrigiendo errores con precisión técnica.',
+    visionPersonal: 'Convertirse en un referente técnico del equipo, aportando soluciones cada vez más robustas y eficientes.',
   },
   {
     name: 'Diego Laguna',
@@ -757,6 +799,8 @@ export const mbtiResultados = [
     description:
       'Espíritu libre, entusiasta y sociable que conecta con facilidad con las personas. Combina creatividad, empatía y energía positiva, y encuentra satisfacción en ayudar a resolver los problemas de los demás.',
     objetivo: 'Reducir el tiempo de resolución de incidencias y mejorar la experiencia de soporte, fortaleciendo la comunicación entre los usuarios y el equipo de desarrollo.',
+    misionPersonal: 'Brindar soporte técnico oportuno al equipo y a los usuarios, resolviendo incidencias con rapidez y cercanía.',
+    visionPersonal: 'Ser el puente que conecta a los usuarios con el equipo de desarrollo, elevando la calidad del soporte que reciben.',
   },
   {
     name: 'Adriana Álvarez',
@@ -768,5 +812,7 @@ export const mbtiResultados = [
     description:
       'Personalidad cálida y responsable que ofrece apoyo constante y cuidado práctico a quienes la rodean. Destaca por su atención al detalle, su memoria para lo importante y su compromiso con crear estabilidad y confort para su equipo.',
     objetivo: 'Mantener un entorno de desarrollo estable, seguro y bien documentado, asegurando que el equipo cuente siempre con las herramientas adecuadas para trabajar sin interrupciones.',
+    misionPersonal: 'Administrar y mantener las herramientas y el entorno de desarrollo, asegurando que el equipo trabaje siempre en condiciones óptimas.',
+    visionPersonal: 'Consolidar un entorno de desarrollo estable y con buenas prácticas que acompañe el crecimiento del equipo a futuro.',
   },
 ]

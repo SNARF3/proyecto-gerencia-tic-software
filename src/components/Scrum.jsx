@@ -19,7 +19,30 @@ function Steps({ steps }) {
   )
 }
 
-export default function Scrum() {
+function PeopleChips({ people, onNavigate }) {
+  return (
+    <div className="scrum-people-row">
+      {people.map((p) =>
+        p.positionId ? (
+          <button
+            key={p.name}
+            type="button"
+            className="scrum-people-chip is-link"
+            onClick={() => onNavigate(p.positionId)}
+          >
+            {p.name}
+          </button>
+        ) : (
+          <span key={p.name} className="scrum-people-chip">
+            {p.name}
+          </span>
+        )
+      )}
+    </div>
+  )
+}
+
+export default function Scrum({ onNavigate }) {
   return (
     <>
       <section className="hero hero-sm">
@@ -94,7 +117,7 @@ export default function Scrum() {
               <article className="card centered">
                 <IconBadge name={r.icon} tone="purple" size={64} />
                 <h3>{r.title}</h3>
-                <span className="scrum-people-chip">{r.people}</span>
+                <PeopleChips people={r.people} onNavigate={onNavigate} />
                 <p className="small">{r.text}</p>
               </article>
             </Reveal>

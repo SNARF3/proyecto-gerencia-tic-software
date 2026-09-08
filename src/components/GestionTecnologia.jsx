@@ -65,6 +65,7 @@ export default function GestionTecnologia() {
                 <CardPhoto src={p.image} alt={p.title} />
                 <IconBadge name={p.icon} tone="purple" />
                 <h3>{p.title}</h3>
+                <p className="small">{p.text}</p>
               </article>
             </Reveal>
           ))}
@@ -85,6 +86,7 @@ export default function GestionTecnologia() {
                 <IconBadge name={h.icon} tone="teal" />
                 <h3 className="tight">{h.title}</h3>
                 {h.sub && <p className="small muted">{h.sub}</p>}
+                <p className="small">{h.text}</p>
               </article>
             </Reveal>
           ))}
