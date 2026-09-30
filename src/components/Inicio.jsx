@@ -127,6 +127,20 @@ export default function Inicio() {
           ))}
         </div>
       </section>
+
+      <section className="band dark divider">
+        <Reveal className="cta-inventario">
+          <h2 className="band-title">¿Quieres ver el inventario?</h2>
+          <a
+            href="https://iatech-co-frontend.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-inventario-link"
+          >
+            Acceder al inventario ↗
+          </a>
+        </Reveal>
+      </section>
     </>
   )
 }

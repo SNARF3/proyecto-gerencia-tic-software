@@ -1360,6 +1360,34 @@ section.split.band {
   50% { filter: drop-shadow(0 0 14px currentColor); }
 }
 
+/* ---------- Inventario CTA ---------- */
+.cta-inventario {
+  text-align: center;
+}
+
+.cta-inventario-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 20px 48px;
+  border-radius: 999px;
+  background: var(--gradient-accent);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 16px 34px -10px rgba(214, 36, 159, 0.65);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cta-inventario-link:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 22px 42px -10px rgba(214, 36, 159, 0.75);
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background: var(--navy-950);
