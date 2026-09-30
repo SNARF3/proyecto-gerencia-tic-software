@@ -53,7 +53,7 @@ export default function MBTI() {
 
       <section className="band dark divider">
         <Reveal as="h2" className="band-title">
-          Las dimensiones de la personalidad
+          Las dimensiones de las preferencias
         </Reveal>
       </section>
       <section className="section">
