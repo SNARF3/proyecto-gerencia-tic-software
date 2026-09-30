@@ -8,6 +8,7 @@ import MisionVision from './components/MisionVision'
 import DescripcionPuestos from './components/DescripcionPuestos'
 import MBTI from './components/MBTI'
 import Scrum from './components/Scrum'
+import Bpmn from './components/Bpmn'
 import './App.css'
 
 const TABS = [
@@ -19,6 +20,7 @@ const TABS = [
   { id: 'descripcion-puestos', label: 'Descripción de Posiciones', Component: DescripcionPuestos },
   { id: 'mbti', label: 'MBTI', Component: MBTI },
   { id: 'scrum', label: 'Scrum', Component: Scrum },
+  { id: 'bpmn', label: 'BPMN', Component: Bpmn },
 ]
 
 export default function App() {

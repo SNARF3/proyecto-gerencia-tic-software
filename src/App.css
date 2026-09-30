@@ -315,6 +315,10 @@ body.nav-open {
   width: 100%;
 }
 
+.section-wide {
+  max-width: min(96vw, 1900px);
+}
+
 .band {
   padding: 40px 24px;
   text-align: center;
@@ -1189,6 +1193,171 @@ section.split.band {
   font-size: 0.82rem;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+}
+
+/* ---------- BPMN diagram ---------- */
+.bpmn-wrap {
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 20px;
+  box-shadow: var(--shadow-card);
+  background: #fff;
+  border: 1px solid var(--border-soft);
+  padding: 6px;
+}
+
+.bpmn-svg {
+  display: block;
+}
+
+.bpmn-lane-label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.bpmn-lane-sep {
+  stroke: var(--border-soft);
+  stroke-width: 2;
+}
+
+.bpmn-edge {
+  fill: none;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bpmn-edge-main {
+  stroke-dasharray: 12 8;
+  animation: bpmnFlow 1s linear infinite;
+}
+
+.bpmn-edge-loop {
+  stroke-dasharray: 8 7;
+  opacity: 0.85;
+  animation: bpmnFlow 1.3s linear infinite;
+}
+
+@keyframes bpmnFlow {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.bpmn-edge-label {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 24px;
+  fill: #b45309;
+}
+
+.bpmn-node {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+
+.bpmn-node:hover {
+  transform: scale(1.045);
+}
+
+.bpmn-task rect {
+  fill: #fff;
+  stroke-width: 3;
+  filter: drop-shadow(0 8px 16px rgba(28, 20, 60, 0.12));
+  transition: filter 0.25s ease;
+}
+
+.bpmn-node.bpmn-task:hover rect {
+  filter: drop-shadow(0 14px 26px rgba(28, 20, 60, 0.22));
+}
+
+.bpmn-task.lane-devlead rect {
+  stroke: #e0249f;
+}
+
+.bpmn-task.lane-scrum rect {
+  stroke: #7c3aed;
+}
+
+.bpmn-task.lane-devteam rect {
+  stroke: #1c8f93;
+}
+
+.bpmn-task.lane-qa rect {
+  stroke: #2563eb;
+}
+
+.bpmn-label {
+  width: 180px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 12px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--text-dark);
+  box-sizing: border-box;
+}
+
+.bpmn-gateway polygon {
+  fill: #fff7e6;
+  stroke: #f59e0b;
+  stroke-width: 4;
+  filter: drop-shadow(0 8px 16px rgba(245, 158, 11, 0.25));
+  animation: bpmnGatewayPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes bpmnGatewayPulse {
+  0%, 100% { stroke-width: 4; }
+  50% { stroke-width: 6.5; }
+}
+
+.bpmn-gateway-mark {
+  font-size: 34px;
+  font-weight: 800;
+  fill: #f59e0b;
+}
+
+.bpmn-gateway-label {
+  width: 180px;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 16px;
+  color: #b45309;
+}
+
+.bpmn-event circle {
+  stroke-width: 4;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bpmnEventPulse 2s ease-in-out infinite;
+}
+
+.bpmn-event-start circle {
+  fill: #dcfce7;
+  stroke: #16a34a;
+  color: #16a34a;
+}
+
+.bpmn-event-end circle {
+  fill: #dc2626;
+  stroke: #dc2626;
+  stroke-width: 6;
+  color: #dc2626;
+}
+
+@keyframes bpmnEventPulse {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 14px currentColor); }
 }
 
 /* ---------- Footer ---------- */
