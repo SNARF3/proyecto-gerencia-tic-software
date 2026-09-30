@@ -1362,6 +1362,9 @@ section.split.band {
 
 /* ---------- Inventario CTA ---------- */
 .cta-inventario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
